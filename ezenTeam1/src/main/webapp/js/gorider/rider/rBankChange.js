@@ -11,7 +11,7 @@ $.ajax({
       method : "get",
       success : r => { console.log(r);
 
-		  // 2. 로그인된 라이더 은행이름 출력
+		  // 2.  로그인된 라이더 은행이름 출력
 		  document.querySelector('.rbankinfo').value = `${r.rbank}`;
 
 		  // 3. 로그인된 라이더 계좌번호 출력
